@@ -1,0 +1,29 @@
+:root {
+  color-scheme: dark;
+  --background: #1a130e;
+  --foreground: #eee2ce;
+  --card: #271f1a;
+  --muted-foreground: #908679;
+  --border: rgba(238, 226, 206, 0.14);
+  --accent-1: #d9a340;
+  --accent-2: #a9835b;
+  --accent-3: #c7642e;
+  --font-sans: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+  --font-display: "Anton", "Arial Narrow", sans-serif;
+  --font-editorial: "Playfair Display", Georgia, serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --background: #f5eee2;
+    --foreground: #1b130e;
+    --card: #e8e1d5;
+    --muted-foreground: #726c64;
+    --border: rgba(27, 19, 14, 0.14);
+    --accent-1: #aa5527;
+    --accent-2: #866646;
+    --accent-3: #8c651c;
+  }
+}
